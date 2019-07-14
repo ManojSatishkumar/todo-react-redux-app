@@ -8,9 +8,16 @@ import todoApp from "./redux/reducer";
 
 const store = createStore(todoApp);
 
-ReactDOM.render(
-  <Provider store={store}>
-    <TheTodoList />
-  </Provider>,
-  document.getElementById("container")
-);
+export default class TodoReactReduxApp extends React.Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <TheTodoList />
+      </Provider>
+    )
+  }
+}
+
+ReactDOM.render(<TodoReactReduxApp />, document.getElementById('container'))
+
+

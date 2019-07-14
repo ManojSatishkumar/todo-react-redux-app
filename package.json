@@ -1,7 +1,20 @@
 {
-  "name": "todo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "todo-react-redux-app",
+  "version": "1.0.0",
+  "description": "A todo app built with react and redux",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManojSatishkumar/todo-react-redux-app"
+  },
+  "bugs": {
+    "url": "https://github.com/ManojSatishkumar/todo-react-redux-app/issues"
+  },
+  "author": {
+    "name": "Manoj Satishkumar",
+    "email": "88manojs@gmail.com",
+    "url": "https://manojsatishkumar.github.io/"
+  },
+  "main": "TodoReactReduxApp",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
